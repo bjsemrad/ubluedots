@@ -1,0 +1,106 @@
+add_newline = true
+format = " $username$hostname$localip$shlvl$singularity$kubernetes$directory$vcsh$git_branch$git_commit$git_state$git_metrics$git_status$nix_shell$hg_branch$docker_context$package$c$cmake$cobol$daml$dart$deno$dotnet$elixir$elm$erlang$golang$haskell$helm$julia$kotlin$lua$nim$nodejs$ocaml$perl$php$pulumi$purescript$raku$rlang$red$ruby$rust$scala$swift$vlang$zig$buf$nix_shell$conda$meson$spack$memory_usage$aws$gcloud$openstack$azure$crystal$custom$sudo$jobs$battery$status$container$shell$fill$java$terraform$cmd_duration$python$vagrant$time$line_break$character"
+palette = "onedark"
+
+[aws]
+style = "bold fg:@orange"
+
+[character]
+error_symbol = "[>](bold fg:red)"
+success_symbol = "[>](bold fg:green)"
+
+[cmd_duration]
+style = "bold fg:yellow"
+
+[directory]
+style = "bold fg:blue"
+truncate_to_repo = false
+truncation_symbol = "…/"
+
+[fill]
+style = "bold fg:bgDark"
+symbol = " "
+
+[git_branch]
+style = "bold fg:red"
+
+[git_status]
+style = "bold fg:orange"
+
+[hostname]
+style = "bold fg:cyan"
+
+[java]
+format = "[${symbol}(${version} )]($style)"
+style = "bold fg:red"
+symbol = ""
+
+[memory_usage]
+disabled = true
+threshold = -1
+
+[nodejs]
+disabled = true
+format = "[$symbol($version )]($style)"
+
+[os]
+disabled = false
+
+[package]
+disabled = true
+
+[palettes.onedark]
+bg0 = "#1f2329"
+bg1 = "#282c34"
+bg2 = "#30363f"
+bg3 = "#323641"
+bgDark = "#1E2127"
+bg_blue = "#61afef"
+bg_d = "#181b20"
+bg_yellow = "#e8c88c"
+black = "#0e1013"
+blue = "#4fa6ed"
+cyan = "#48b0bd"
+dark_cyan = "#266269"
+dark_purple = "#7e3992"
+dark_red = "#8b3434"
+dark_yellow = "#835d1a"
+diff_add = "#272e23"
+diff_change = "#172a3a"
+diff_delete = "#2d2223"
+diff_text = "#274964"
+fg = "#a0a8b7"
+fg_dark = "#abb2bf"
+green = "#8ebd6b"
+grey = "#535965"
+light_grey = "#7a818e"
+orange = "#cc9057"
+purple = "#bf68d9"
+red = "#e55561"
+yellow = "#e2b86b"
+
+[palettes.rose-pine]
+foam = "#9ccfd8"
+gold = "#f6c177"
+iris = "#c4a7e7"
+love = "#eb6f92"
+overlay = "#26233a"
+pine = "#3e8fb0"
+rose = "#ebbcba"
+
+[python]
+format = "[$symbol]($style)"
+
+[terraform]
+format = "[$symbol $version ]($style)"
+
+[time]
+disabled = false
+style = "bold fg:yello"
+use_12hr = true
+
+[username]
+style_user = "bold fg:purple"
+
+[vagrant]
+format = "[$symbol($version )]($style)"
