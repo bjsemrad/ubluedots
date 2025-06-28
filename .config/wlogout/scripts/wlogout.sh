@@ -1,1 +1,2 @@
-/nix/store/qv0qrk17c5vmqd1na1dq6rprvnp5z0vc-home-manager-files/.config/wlogout/scripts/wlogout.sh
+!/usr/bin/env bash
+killall wlogout || wlogout -b 5 -m 500

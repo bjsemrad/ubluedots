@@ -1,1 +1,9 @@
-/nix/store/qv0qrk17c5vmqd1na1dq6rprvnp5z0vc-home-manager-files/.config/rofi/themes/colors.rasi
+* {
+    background:     #0e1013ff;/* #1f2329ff; one dark*/ /*0e1013ff;*/ /* Black */
+    background-alt: #282c34ff; /* Bg1 */  
+    foreground:     #a0a8b7ff; /* text */
+    selected:       #4fa6edff;  /* blue */
+    active:         #4fa6edff; /* blue */
+    urgent:         #e86671ff; /*red */
+    border:	    #4fa6edff; /* bg1 */
+}

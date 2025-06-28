@@ -1,1 +1,5 @@
-/nix/store/qv0qrk17c5vmqd1na1dq6rprvnp5z0vc-home-manager-files/.config/rofi/config.rasi
+configuration {
+location: 0;
+xoffset: 0;
+yoffset: 0;
+}

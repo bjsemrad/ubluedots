@@ -1,1 +1,7 @@
-/nix/store/qv0qrk17c5vmqd1na1dq6rprvnp5z0vc-home-manager-files/.config/waybar/scripts/recorder.sh
+#!/bin/sh
+
+if pgrep -x wf-recorder >/dev/null; then
+	printf '{"text":" ","class":"enabled"}';
+else
+	printf '{"text":" "}';
+fi

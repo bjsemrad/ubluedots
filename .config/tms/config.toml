@@ -1,1 +1,16 @@
-/nix/store/qv0qrk17c5vmqd1na1dq6rprvnp5z0vc-home-manager-files/.config/tms/config.toml
+[[search_dirs]]
+path = "/home/brian/projects"
+depth = 10
+
+[[search_dirs]]
+path = "/home/brian/nixconfig"
+depth = 1
+
+[[search_dirs]]
+path = "/home/brian/exercism"
+depth = 2
+
+[[search_dirs]]
+path = "/home/brian/os-images"
+depth = 2
+
